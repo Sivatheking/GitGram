@@ -26,6 +26,19 @@
         "APP_URL": {
             "description": "Heroku app url, example: https://appname.herokuapp.com",
             "value": ""
+        },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
         }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
+
     }
   }
