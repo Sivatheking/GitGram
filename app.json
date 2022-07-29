@@ -15,8 +15,8 @@
             "description": "Fill this if you using environ variable as config.",
             "value": "True"
         },
-        "API_HASH": {
-            "description": "Your API Hash my.telegram.org",
+        "PROJECT_NAME": {
+            "description": "Project of what you desire",
             "value": ""
         },
         "BOT_TOKEN": {
