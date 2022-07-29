@@ -22,7 +22,10 @@
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
-        }       
+        },
+        "APP_URL": {
+            "description": "Heroku app url, example: https://appname.herokuapp.com",
+            "value": ""       
     },
     "buildpacks": [
         {
