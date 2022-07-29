@@ -11,22 +11,19 @@
     "success_url": "https://t.me/GitGramChat",
     "stack": "container",
     "env": {
-        "ENV": {
-            "description": "Fill this if you using environ variable as config.",
-            "value": "True"
+        "E": {
+            "description": "Your APP ID my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash my.telegram.org",
+            "value": ""
         },
         "BOT_TOKEN": {
-            "description": "Get Bot API Token from @BotFather",
+            "description": "Your Bot Token From @BotFather",
             "value": ""
-        },
-        "PROJECT_NAME": {
-            "description": "Project of what you desire",
-            "value": ""
-        },
-        "APP_URL": {
-            "description": "Heroku app url, example: https://appname.herokuapp.com",
-            "value": ""
-        },
+        }       
+    },
     "buildpacks": [
         {
             "url": "heroku/python"
