@@ -11,9 +11,9 @@
     "success_url": "https://t.me/GitGramChat",
     "stack": "container",
     "env": {
-        "E": {
-            "description": "Your APP ID my.telegram.org",
-            "value": ""
+        "ENV": {
+            "description": "Fill this if you using environ variable as config.",
+            "value": "True"
         },
         "API_HASH": {
             "description": "Your API Hash my.telegram.org",
